@@ -1,0 +1,16 @@
+{
+  "name": "web3rsvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "script": "node scripts/run.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.10.2"
+  }
+}
