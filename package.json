@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "script": "node scripts/run.js"
+    "script": "node scripts/run.js",
+    "deploy": "npx hardhat run scripts/deploy.js --network rinkeby"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,10 @@
     "@nomiclabs/hardhat-ethers": "^2.1.1",
     "ethers": "^5.0.0",
     "hardhat": "^2.10.2"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "dotenv": "^16.0.1",
+    "ethereum-waffle": "^3.4.4"
   }
 }
