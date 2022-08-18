@@ -12,10 +12,12 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.1.1",
     "ethers": "^5.0.0",
-    "hardhat": "^2.10.2"
+    "hardhat": "^2.10.2",
+    "hardhat-abi-exporter": "^2.10.0"
   },
   "dependencies": {
     "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@protofire/subgraph-toolkit": "^0.1.2",
     "dotenv": "^16.0.1",
     "ethereum-waffle": "^3.4.4"
   }

@@ -1,5 +1,6 @@
 require("@nomiclabs/hardhat-waffle"); //new update from hardhat requires to import 'hardhat-toolbox'
 require("dotenv").config();
+require('hardhat-abi-exporter');
 
 module.exports = {
   solidity: "0.8.7",
